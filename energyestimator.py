@@ -117,7 +117,7 @@ class Estimator():
         print(f"Setting PMT separation to {pmt_separation + buffer}.")
         return pmt_separation + buffer
 
-    def eventloop(self, write_tree=True)
+    def eventloop(self, write_tree=True):
         r_nentry = self.rat_t.GetEntries()
         b_nentry = self.bonsai_t.GetEntries()
         geo_data = self.parse_geometric_corrections("geo_correction.csv")
